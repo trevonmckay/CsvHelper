@@ -5,7 +5,7 @@
 using System;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Mapping info for a reference parameter mapping to a class.

@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Globalization;
 using System.IO;
-using CsvHelper.Tests.Mocks;
+using FileHelper.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Writing
+namespace FileHelper.Tests.Writing
 {
 	[TestClass]
 	public class DynamicTests

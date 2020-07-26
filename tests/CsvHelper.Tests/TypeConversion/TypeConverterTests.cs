@@ -5,11 +5,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CsvHelper.Configuration;
-using CsvHelper.Tests.Mocks;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.Tests.Mocks;
+using FileHelper.TypeConversion;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class TypeConverterTests

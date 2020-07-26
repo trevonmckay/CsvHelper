@@ -4,14 +4,14 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Collections;
 using System.Linq;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Globalization;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class IEnumerableConverterTests

@@ -7,19 +7,19 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Dynamic;
 using System.Threading.Tasks;
-using CsvHelper.Expressions;
+using FileHelper.Expressions;
 using System.Globalization;
 
 #pragma warning disable 649
 #pragma warning disable 169
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Used to write CSV files.
@@ -124,7 +124,7 @@ namespace CsvHelper
 		/// <summary>
 		/// Writes the field to the CSV file. This will
 		/// ignore any need to quote and ignore
-		/// <see cref="CsvHelper.Configuration.CsvConfiguration.ShouldQuote"/>
+		/// <see cref="FileHelper.Configuration.CsvConfiguration.ShouldQuote"/>
 		/// and just quote based on the shouldQuote
 		/// parameter.
 		/// When all fields are written for a record,

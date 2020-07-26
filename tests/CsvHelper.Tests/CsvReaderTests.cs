@@ -9,13 +9,13 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using CsvHelper.Configuration;
-using CsvHelper.Tests.Mocks;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.Tests.Mocks;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #pragma warning disable 649
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvReaderTests

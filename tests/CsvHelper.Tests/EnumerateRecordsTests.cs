@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Globalization;
 using System.IO;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class EnumerateRecordsTests

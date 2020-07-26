@@ -9,7 +9,7 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CsvHelper.Tests.Async
+namespace FileHelper.Tests.Async
 {
 	[TestClass]
 	public class WritingTests

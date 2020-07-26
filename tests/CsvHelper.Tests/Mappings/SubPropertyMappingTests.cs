@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Mappings
+namespace FileHelper.Tests.Mappings
 {
 	[TestClass]
 	public class SubPropertyMappingTests
@@ -78,7 +78,7 @@ namespace CsvHelper.Tests.Mappings
 		[TestMethod]
 		public void ChangeMemberMapTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var map = config.AutoMap<A>();
 			map.Map(m => m.B.C.P3).Index(3);
 		}

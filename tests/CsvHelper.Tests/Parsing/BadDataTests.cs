@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Parsing
+namespace FileHelper.Tests.Parsing
 {
 	[TestClass]
 	public class BadDataTests

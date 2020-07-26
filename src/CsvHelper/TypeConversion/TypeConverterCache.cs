@@ -2,7 +2,7 @@
 // This file is a part of CsvHelper and is dual licensed under MS-PL and Apache 2.0.
 // See LICENSE.txt for details or visit http://www.opensource.org/licenses/ms-pl.html for MS-PL and http://opensource.org/licenses/Apache-2.0 for Apache 2.0.
 // https://github.com/JoshClose/CsvHelper
-using CsvHelper.Configuration.Attributes;
+using FileHelper.Configuration.Attributes;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Collections.ObjectModel;
 using System.Numerics;
 using System.Reflection;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Caches <see cref="ITypeConverter"/>s for a given type.

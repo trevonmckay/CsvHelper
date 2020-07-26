@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Hydrates members of an existing record.

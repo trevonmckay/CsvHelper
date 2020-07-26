@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Defines methods used to read parsed data

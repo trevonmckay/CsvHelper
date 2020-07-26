@@ -4,13 +4,13 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Collections.Generic;
 using System.Linq;
-using CsvHelper.Configuration;
-using CsvHelper.Tests.Mocks;
+using FileHelper.Configuration;
+using FileHelper.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Globalization;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class ConstantTests

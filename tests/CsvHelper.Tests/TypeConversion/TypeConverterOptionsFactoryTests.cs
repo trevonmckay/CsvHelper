@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class TypeConverterOptionsFactoryTests

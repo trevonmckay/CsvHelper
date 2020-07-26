@@ -5,7 +5,7 @@
 using System;
 using System.Text;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Configuration used for the <see cref="IParser"/>.

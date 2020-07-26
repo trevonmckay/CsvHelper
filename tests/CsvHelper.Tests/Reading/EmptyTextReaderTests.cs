@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class EmptyTextReaderTests

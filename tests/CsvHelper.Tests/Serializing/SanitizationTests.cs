@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Globalization;
 using System.IO;
 
-namespace CsvHelper.Tests.Serializing
+namespace FileHelper.Tests.Serializing
 {
 	[TestClass]
 	public class SanitizationTests

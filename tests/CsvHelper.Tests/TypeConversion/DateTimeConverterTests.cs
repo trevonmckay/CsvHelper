@@ -4,12 +4,12 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Globalization;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class DateTimeConverterTests

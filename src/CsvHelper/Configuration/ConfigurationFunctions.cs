@@ -5,7 +5,7 @@
 using System;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>Holds the default callback methods for delegate members of <c>CsvHelper.Configuration.Configuration</c>.</summary>
 	public static class ConfigurationFunctions

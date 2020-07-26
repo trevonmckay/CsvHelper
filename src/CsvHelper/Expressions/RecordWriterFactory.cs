@@ -5,7 +5,7 @@
 using System.Dynamic;
 using System.Reflection;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Factory to create record writers.

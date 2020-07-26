@@ -5,7 +5,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Defines methods used to read a field in a CSV file.

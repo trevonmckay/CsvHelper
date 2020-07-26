@@ -5,9 +5,9 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Converts a <see cref="double"/> to and from a <see cref="string"/>.

@@ -7,11 +7,11 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 #pragma warning disable 649
 
-namespace CsvHelper.Tests.Mappings
+namespace FileHelper.Tests.Mappings
 {
 	[TestClass]
 	public class FieldMappingTests
@@ -377,7 +377,7 @@ namespace CsvHelper.Tests.Mappings
 		{
 			public APrivateMap()
 			{
-				var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+				var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 				{
 					IncludePrivateMembers = true,
 					MemberTypes = MemberTypes.Fields

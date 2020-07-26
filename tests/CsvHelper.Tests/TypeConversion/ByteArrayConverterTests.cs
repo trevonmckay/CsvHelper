@@ -4,10 +4,10 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Linq;
-using CsvHelper.TypeConversion;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class ByteArrayConverterTests

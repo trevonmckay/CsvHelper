@@ -3,9 +3,9 @@
 // See LICENSE.txt for details or visit http://www.opensource.org/licenses/ms-pl.html for MS-PL and http://opensource.org/licenses/Apache-2.0 for Apache 2.0.
 // https://github.com/JoshClose/CsvHelper
 using System.Globalization;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Converts a <see cref="ushort"/> to and from a <see cref="string"/>.

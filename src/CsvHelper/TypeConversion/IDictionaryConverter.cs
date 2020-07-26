@@ -4,9 +4,9 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Collections;
 using System.Collections.Generic;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Converts an <see cref="IDictionary"/> to and from a <see cref="string"/>.

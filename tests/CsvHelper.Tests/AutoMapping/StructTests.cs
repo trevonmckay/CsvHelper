@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace CsvHelper.Tests.AutoMapping
+namespace FileHelper.Tests.AutoMapping
 {
 	[TestClass]
 	public class StructTests

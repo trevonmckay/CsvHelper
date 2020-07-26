@@ -9,7 +9,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace CsvHelper.Tests.DataTableTests
+namespace FileHelper.Tests.DataTableTests
 {
 	[TestClass]
 	public class CsvDataReaderTests

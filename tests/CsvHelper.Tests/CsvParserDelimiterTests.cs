@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvParserDelimiterTests
@@ -304,7 +304,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void MultipleCharDelimiterWithBufferEndingInMiddleOfDelimiterTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				Delimiter = "|~|",
 				BufferSize = 3,

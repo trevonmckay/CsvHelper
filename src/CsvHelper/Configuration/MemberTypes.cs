@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Flags for the type of members that 

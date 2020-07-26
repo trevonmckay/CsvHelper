@@ -5,10 +5,10 @@
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class DetectColumnCountChangesTests

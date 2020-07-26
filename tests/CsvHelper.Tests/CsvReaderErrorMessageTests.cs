@@ -7,11 +7,11 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvReaderErrorMessageTests

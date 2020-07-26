@@ -4,15 +4,15 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Globalization;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Moq;
 using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Reflection;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class CollectionGenericConverterTests
@@ -20,7 +20,7 @@ namespace CsvHelper.Tests.TypeConversion
 		[TestMethod]
 		public void ConvertNoIndexEndTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
 			var rowMock = new Mock<IReaderRow>();
 			var currentRecord = new[] { "1", "one", "1", "2", "3" };
 			var context = new ReadingContext(new StringReader(string.Empty), config, false)
@@ -48,7 +48,7 @@ namespace CsvHelper.Tests.TypeConversion
 		[TestMethod]
 		public void ConvertWithIndexEndTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { HasHeaderRecord = false };
 			var rowMock = new Mock<IReaderRow>();
 			var currentRecord = new[] { "1", "one", "1", "2", "3" };
 			var context = new ReadingContext(new StringReader(string.Empty), config, false)

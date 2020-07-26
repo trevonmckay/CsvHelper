@@ -3,11 +3,11 @@
 // See LICENSE.txt for details or visit http://www.opensource.org/licenses/ms-pl.html for MS-PL and http://opensource.org/licenses/Apache-2.0 for Apache 2.0.
 // https://github.com/JoshClose/CsvHelper
 using System.Linq;
-using CsvHelper.Tests.Mocks;
-using CsvHelper.TypeConversion;
+using FileHelper.Tests.Mocks;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Exceptions
+namespace FileHelper.Tests.Exceptions
 {
 	[TestClass]
 	public class ExceptionMessageTests

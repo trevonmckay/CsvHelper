@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvWriterSubClassingTests

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Creates objects.

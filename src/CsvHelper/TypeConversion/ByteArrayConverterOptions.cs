@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Options for converting byte arrays.

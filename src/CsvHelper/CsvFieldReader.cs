@@ -4,13 +4,13 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using System.Threading.Tasks;
 
 // This file is generated from a T4 template.
 // Modifying it directly won't do you any good.
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Reads fields from a <see cref="TextReader"/>.

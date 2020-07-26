@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using System.Linq;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Extensions to help with reflection.

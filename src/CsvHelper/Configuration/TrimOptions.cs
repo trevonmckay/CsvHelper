@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Options for trimming of fields.

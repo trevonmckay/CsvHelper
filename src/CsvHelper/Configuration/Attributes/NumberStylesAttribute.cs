@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace CsvHelper.Configuration.Attributes
+namespace FileHelper.Configuration.Attributes
 {
 	/// <summary>
 	/// The <see cref="NumberStyles"/> to use when type converting.

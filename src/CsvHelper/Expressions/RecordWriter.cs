@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Base implementation for classes that write records.

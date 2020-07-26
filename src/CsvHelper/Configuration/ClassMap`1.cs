@@ -6,7 +6,7 @@ using System;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Maps class members to CSV fields.

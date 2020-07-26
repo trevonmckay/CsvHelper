@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class DynamicTests

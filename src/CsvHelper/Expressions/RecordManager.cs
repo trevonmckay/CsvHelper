@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Manages record manipulation.

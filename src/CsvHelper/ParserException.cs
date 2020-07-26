@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Represents errors that occur while parsing a CSV file.

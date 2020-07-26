@@ -6,7 +6,7 @@ using System;
 using System.Data;
 using System.Linq;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Provides a means of reading a CSV file forward-only by using CsvReader.

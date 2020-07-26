@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class RecordBuilderTests

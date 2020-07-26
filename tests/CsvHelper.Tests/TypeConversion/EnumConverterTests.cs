@@ -4,12 +4,12 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Globalization;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CsvHelper.TypeConversion;
+using FileHelper.TypeConversion;
 using Moq;
 
-namespace CsvHelper.Tests.TypeConversion
+namespace FileHelper.Tests.TypeConversion
 {
 	[TestClass]
 	public class EnumConverterTests

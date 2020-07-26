@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.Configuration.Attributes
+namespace FileHelper.Configuration.Attributes
 {
 	/// <summary>
 	/// Ignore the member when reading if no matching field name can be found.

@@ -4,9 +4,9 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Globalization;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Converts a <see cref="DateTimeOffset"/> to and from a <see cref="string"/>.

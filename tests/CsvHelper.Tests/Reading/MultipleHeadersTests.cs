@@ -4,10 +4,10 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Globalization;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class MultipleHeadersTests

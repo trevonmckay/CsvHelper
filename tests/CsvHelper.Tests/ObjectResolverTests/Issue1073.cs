@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace CsvHelper.Tests.Issues
+namespace FileHelper.Tests.Issues
 {
 	[TestClass]
 	public class Issue1073

@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class LocalCultureTests
@@ -23,7 +23,7 @@ namespace CsvHelper.Tests
 			const string source = "DateTimeColumn;DecimalColumn\r\n" +
 								  "11.11.2010;12,0\r\n";
 
-			var configuration = new CsvHelper.Configuration.CsvConfiguration(new CultureInfo("uk-UA"))
+			var configuration = new FileHelper.Configuration.CsvConfiguration(new CultureInfo("uk-UA"))
 			{
 				Delimiter = ";",
 			};
@@ -50,7 +50,7 @@ namespace CsvHelper.Tests
 			};
 
 			var writer = new StringWriter();
-			var csv = new CsvWriter(writer, new CsvHelper.Configuration.CsvConfiguration(new CultureInfo("uk-UA")) { Delimiter = ";" });
+			var csv = new CsvWriter(writer, new FileHelper.Configuration.CsvConfiguration(new CultureInfo("uk-UA")) { Delimiter = ";" });
 
 			csv.WriteRecords(records);
 

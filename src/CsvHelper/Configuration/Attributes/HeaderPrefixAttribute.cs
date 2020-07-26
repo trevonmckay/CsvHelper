@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper.Configuration.Attributes
+namespace FileHelper.Configuration.Attributes
 {
 	/// <summary>
 	/// Appends a prefix to the header of each field of the reference member.

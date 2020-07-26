@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CsvHelper.Tests.AttributeMapping
+namespace FileHelper.Tests.AttributeMapping
 {
 	[TestClass]
 	public class IgnoreTests
@@ -67,7 +67,7 @@ namespace CsvHelper.Tests.AttributeMapping
 
 			public string Name { get; set; }
 
-			[CsvHelper.Configuration.Attributes.Ignore]
+			[FileHelper.Configuration.Attributes.Ignore]
 			public DateTime Date { get; set; }
 		}
 
@@ -75,7 +75,7 @@ namespace CsvHelper.Tests.AttributeMapping
 		{
 			public int Id { get; set; }
 
-			[CsvHelper.Configuration.Attributes.Ignore]
+			[FileHelper.Configuration.Attributes.Ignore]
 			public Child Child { get; set; }
 		}
 
@@ -83,7 +83,7 @@ namespace CsvHelper.Tests.AttributeMapping
 		{
 			public string Name { get; set; }
 
-			[CsvHelper.Configuration.Attributes.Ignore]
+			[FileHelper.Configuration.Attributes.Ignore]
 			public GrandChild GrandChild { get; set; }
 		}
 

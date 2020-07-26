@@ -4,10 +4,10 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Collections.Generic;
 using System.Linq;
-using CsvHelper.Tests.Mocks;
+using FileHelper.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Reading
+namespace FileHelper.Tests.Reading
 {
 	[TestClass]
 	public class ShouldSkipRecordTests

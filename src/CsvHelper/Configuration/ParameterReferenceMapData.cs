@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// The configuration data for the reference map.

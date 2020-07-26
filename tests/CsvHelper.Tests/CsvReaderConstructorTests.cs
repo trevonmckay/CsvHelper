@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvReaderConstructorTests
@@ -27,7 +27,7 @@ namespace CsvHelper.Tests
 		{
 			using (var stream = new MemoryStream())
 			using (var reader = new StreamReader(stream))
-			using (var csv = new CsvReader(reader, new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)))
+			using (var csv = new CsvReader(reader, new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)))
 			{
 				Assert.AreSame(csv.Configuration, csv.Parser.Configuration);
 			}

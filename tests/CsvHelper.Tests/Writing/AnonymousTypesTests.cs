@@ -7,7 +7,7 @@ using System.Collections;
 using System.Globalization;
 using System.IO;
 
-namespace CsvHelper.Tests.Writing
+namespace FileHelper.Tests.Writing
 {
 	[TestClass]
 	public class AnonymousTypesTests

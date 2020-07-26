@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Builds CSV records.

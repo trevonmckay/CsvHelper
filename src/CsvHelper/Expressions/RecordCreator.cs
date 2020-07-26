@@ -5,7 +5,7 @@
 using System;
 using System.Reflection;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Base implementation for classes that create records.

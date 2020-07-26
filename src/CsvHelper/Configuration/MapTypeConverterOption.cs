@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Sets type converter options on a member map.

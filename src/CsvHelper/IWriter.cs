@@ -8,7 +8,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Defines methods used to write to a CSV file.

@@ -5,7 +5,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// A collection that holds member names.

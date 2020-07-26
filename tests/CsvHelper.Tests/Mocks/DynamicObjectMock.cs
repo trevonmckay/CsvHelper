@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Dynamic;
 
-namespace CsvHelper.Tests.Mocks
+namespace FileHelper.Tests.Mocks
 {
 	public class DynamicObjectMock : DynamicObject
 	{

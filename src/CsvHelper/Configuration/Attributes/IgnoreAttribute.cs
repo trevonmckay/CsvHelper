@@ -5,7 +5,7 @@
 using System;
 using System.Reflection;
 
-namespace CsvHelper.Configuration.Attributes
+namespace FileHelper.Configuration.Attributes
 {
 	/// <summary>
 	/// Ignore the member when reading and writing.

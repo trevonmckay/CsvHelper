@@ -5,7 +5,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Globalization;
 
-namespace CsvHelper.Tests.AutoMapping
+namespace FileHelper.Tests.AutoMapping
 {
 	[TestClass]
 	public class CircularReferenceTests
@@ -13,14 +13,14 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void SelfCircularDependencyTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var map = config.AutoMap<SelfCircularA>();
 		}
 
 		[TestMethod]
 		public void CircularDependencyTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var map = config.AutoMap<ACircular>();
 			Assert.IsNotNull( map );
 			Assert.AreEqual( 1, map.MemberMaps.Count );
@@ -32,7 +32,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void CircularDependencyWithMultiplePropertiesTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var map = config.AutoMap<A>();
 			Assert.AreEqual( 1, map.MemberMaps.Count );
 			Assert.AreEqual( 3, map.ReferenceMaps.Count );

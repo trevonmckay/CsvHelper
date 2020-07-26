@@ -7,7 +7,7 @@ using System.IO;
 using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvParserTests
@@ -122,7 +122,7 @@ namespace CsvHelper.Tests
 			stream.Position = 0;
 			var reader = new StreamReader(stream);
 
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { BufferSize = 2000 };
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture) { BufferSize = 2000 };
 			var parser = new CsvParser(reader, config);
 			parser.Configuration.Delimiter = ",";
 
@@ -1026,7 +1026,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void ByteCountTestWithQuotedFieldsClosingQuoteAtStartOfBuffer()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				CountBytes = true,
 				BufferSize = 4
@@ -1056,7 +1056,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void ByteCountTestWithQuotedFieldsEscapedQuoteAtStartOfBuffer()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				CountBytes = true,
 				BufferSize = 4
@@ -1216,7 +1216,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void EndBufferTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				BufferSize = 12
 			};

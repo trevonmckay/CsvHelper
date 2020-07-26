@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Reflection
+namespace FileHelper.Tests.Reflection
 {
 	[TestClass]
 	public class ReflectionHelperTests

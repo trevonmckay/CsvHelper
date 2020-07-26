@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Used to compare <see cref="MemberMap"/>s.

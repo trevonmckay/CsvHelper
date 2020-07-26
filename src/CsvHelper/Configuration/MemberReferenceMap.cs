@@ -6,7 +6,7 @@ using System;
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Mapping info for a reference member mapping to a class.

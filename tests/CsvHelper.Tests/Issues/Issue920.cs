@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace CsvHelper.Tests.Issues
+namespace FileHelper.Tests.Issues
 {
 	[TestClass]
 	public class Issue920

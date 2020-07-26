@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace CsvHelper.Configuration.Attributes
+namespace FileHelper.Configuration.Attributes
 {
 	/// <summary>
 	/// The <see cref="DateTimeStyles"/> to use when type converting.

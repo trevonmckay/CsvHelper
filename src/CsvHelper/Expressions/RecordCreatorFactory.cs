@@ -5,7 +5,7 @@
 using System;
 using System.Reflection;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Factory to create record creators.

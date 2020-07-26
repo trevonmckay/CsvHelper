@@ -4,9 +4,9 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Globalization;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Creates CsvHelper classes.

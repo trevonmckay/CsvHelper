@@ -8,10 +8,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.AutoMapping
+namespace FileHelper.Tests.AutoMapping
 {
 	[TestClass]
 	public class AutoMappingTests
@@ -253,7 +253,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void AutoMapEnumerableTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			try
 			{
 				config.AutoMap(typeof(List<string>));
@@ -265,7 +265,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void AutoMapWithExistingMapTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var existingMap = new SimpleMap();
 			config.Maps.Add(existingMap);
 			var data = new
@@ -291,7 +291,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void AutoMapWithNestedHeaders()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				ReferenceHeaderPrefix = (type, name) => $"{name}."
 			};
@@ -305,7 +305,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void AutoMapWithDefaultConstructor()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			ClassMap map = config.AutoMap<SimpleReferenceHasNoDefaultConstructor>();
 
 			Assert.AreEqual("Id", map.MemberMaps[0].Data.Names[0]);
@@ -316,7 +316,7 @@ namespace CsvHelper.Tests.AutoMapping
 		[TestMethod]
 		public void AutoMapWithNoDefaultConstructor()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var map = config.AutoMap<SimpleHasNoDefaultConstructorReferenceHasNoDefaultConstructor>();
 
 			Assert.AreEqual("Id", map.MemberMaps[0].Data.Names[0]);

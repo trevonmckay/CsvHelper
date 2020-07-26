@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Parsing
+namespace FileHelper.Tests.Parsing
 {
 	[TestClass]
 	public class CommentTests
@@ -14,7 +14,7 @@ namespace CsvHelper.Tests.Parsing
 		[TestMethod]
 		public void CommentThatCrossesBuffersShouldNotAddToFieldTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
 			{
 				AllowComments = true,
 				BufferSize = 10

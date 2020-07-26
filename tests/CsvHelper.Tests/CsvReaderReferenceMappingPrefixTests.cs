@@ -5,10 +5,10 @@
 using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using System.Globalization;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvReaderReferenceMappingPrefixTests

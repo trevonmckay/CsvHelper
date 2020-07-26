@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// The configuration data for the reference map.

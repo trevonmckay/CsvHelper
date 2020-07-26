@@ -4,10 +4,10 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Globalization;
-using CsvHelper.TypeConversion;
+using FileHelper.TypeConversion;
 using System.Collections.Generic;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Configuration used for the <see cref="IWriter"/>.

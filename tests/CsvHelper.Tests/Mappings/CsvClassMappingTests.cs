@@ -5,11 +5,11 @@
 using System;
 using System.Globalization;
 using System.Linq;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvClassMappingTests
@@ -115,7 +115,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void MapMultipleTypesTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			config.RegisterClassMap<AMap>();
 			config.RegisterClassMap<BMap>();
 
@@ -126,7 +126,7 @@ namespace CsvHelper.Tests
 		[TestMethod]
 		public void PropertyMapAccessTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			config.RegisterClassMap<AMap>();
 			config.Maps.Find<A>().Map( m => m.AId ).Ignore();
 

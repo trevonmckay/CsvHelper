@@ -7,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Text;
 
-namespace CsvHelper.Tests.Parsing
+namespace FileHelper.Tests.Parsing
 {
 	[TestClass]
 	public class CrTests

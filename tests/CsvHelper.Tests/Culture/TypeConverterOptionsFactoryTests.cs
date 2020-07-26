@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Culture
+namespace FileHelper.Tests.Culture
 {
 	[TestClass]
 	public class TypeConverterOptionsFactoryTests
@@ -18,7 +18,7 @@ namespace CsvHelper.Tests.Culture
 		[TestMethod]
 		public void AddGetRemoveTest()
 		{
-			var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+			var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 			var customOptions = new TypeConverterOptions
 			{
 				Formats = new string[] { "custom" },

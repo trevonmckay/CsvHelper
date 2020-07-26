@@ -4,7 +4,7 @@
 // https://github.com/JoshClose/CsvHelper
 using System.Collections.Generic;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	internal static class LinkedListExtensions
 	{

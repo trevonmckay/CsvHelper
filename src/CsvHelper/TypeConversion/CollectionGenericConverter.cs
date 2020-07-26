@@ -5,9 +5,9 @@
 using System.Collections;
 using System.Collections.ObjectModel;
 using System.Linq;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Converts a <see cref="Collection{T}"/> to and from a <see cref="string"/>.

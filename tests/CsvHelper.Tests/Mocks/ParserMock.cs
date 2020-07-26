@@ -6,11 +6,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace CsvHelper.Tests.Mocks
+namespace FileHelper.Tests.Mocks
 {
 	public class ParserMock : IParser, IEnumerable<string[]>
 	{
@@ -31,13 +31,13 @@ namespace CsvHelper.Tests.Mocks
 
 		public ParserMock()
 		{
-			context = new ReadingContext(new StringReader(string.Empty), new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
+			context = new ReadingContext(new StringReader(string.Empty), new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
 			rows = new Queue<string[]>();
 		}
 
 		public ParserMock(Queue<string[]> rows)
 		{
-			context = new ReadingContext(new StringReader(string.Empty), new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
+			context = new ReadingContext(new StringReader(string.Empty), new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
 			this.rows = rows;
 		}
 

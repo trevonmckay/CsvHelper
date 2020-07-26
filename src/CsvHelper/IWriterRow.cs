@@ -3,10 +3,10 @@
 // See LICENSE.txt for details or visit http://www.opensource.org/licenses/ms-pl.html for MS-PL and http://opensource.org/licenses/Apache-2.0 for Apache 2.0.
 // https://github.com/JoshClose/CsvHelper
 using System;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Defines methods used to write a CSV row.
@@ -47,7 +47,7 @@ namespace CsvHelper
 		/// <summary>
 		/// Writes the field to the CSV file. This will
 		/// ignore any need to quote and ignore
-		/// <see cref="CsvHelper.Configuration.CsvConfiguration.ShouldQuote"/>
+		/// <see cref="FileHelper.Configuration.CsvConfiguration.ShouldQuote"/>
 		/// and just quote based on the shouldQuote
 		/// parameter.
 		/// When all fields are written for a record,

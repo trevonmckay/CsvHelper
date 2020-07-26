@@ -5,10 +5,10 @@
 using System;
 using System.Globalization;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Mappings
+namespace FileHelper.Tests.Mappings
 {
 	[TestClass]
 	public class MapConstructorTests

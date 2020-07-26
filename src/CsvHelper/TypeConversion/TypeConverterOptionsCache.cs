@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CsvHelper.TypeConversion
+namespace FileHelper.TypeConversion
 {
 	/// <summary>
 	/// Caches <see cref="TypeConverterOptions"/> for a given type.

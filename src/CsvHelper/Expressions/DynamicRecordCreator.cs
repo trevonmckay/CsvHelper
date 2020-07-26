@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Dynamic;
 
-namespace CsvHelper.Expressions
+namespace FileHelper.Expressions
 {
 	/// <summary>
 	/// Creates dynamic records.

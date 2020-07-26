@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
-using Int32Converter = CsvHelper.TypeConversion.Int32Converter;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
+using Int32Converter = FileHelper.TypeConversion.Int32Converter;
 using System.Dynamic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvWriterTests

@@ -4,10 +4,10 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.Linq.Expressions;
-using CsvHelper.TypeConversion;
+using FileHelper.TypeConversion;
 using System.Collections;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Has mapping capabilities.

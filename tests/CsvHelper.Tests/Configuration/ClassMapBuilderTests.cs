@@ -5,11 +5,11 @@
 using System;
 using System.Linq;
 using System.Linq.Expressions;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Configuration
+namespace FileHelper.Tests.Configuration
 {
 	[TestClass]
 	public class ClassMapBuilderTests

@@ -6,7 +6,7 @@ using System.Globalization;
 using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests
+namespace FileHelper.Tests
 {
 	[TestClass]
 	public class CsvParserConstructorTests
@@ -17,7 +17,7 @@ namespace CsvHelper.Tests
 			using( var stream = new MemoryStream() )
 			using( var reader = new StreamReader( stream ) )
 			{
-				var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
+				var config = new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture);
 				using( var parser = new CsvParser( reader, config ) )
 				{
 					Assert.AreSame( config, parser.Configuration );

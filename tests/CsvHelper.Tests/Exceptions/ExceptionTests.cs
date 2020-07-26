@@ -7,7 +7,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CsvHelper.Tests.Exceptions
+namespace FileHelper.Tests.Exceptions
 {
 	[TestClass]
 	public class ExceptionTests

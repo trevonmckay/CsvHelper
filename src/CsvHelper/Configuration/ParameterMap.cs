@@ -5,7 +5,7 @@
 using System.Diagnostics;
 using System.Reflection;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Mapping for a constructor parameter.

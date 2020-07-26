@@ -4,12 +4,12 @@
 // https://github.com/JoshClose/CsvHelper
 using System;
 using System.IO;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 using System.Threading.Tasks;
 using System.Linq;
 using System.Globalization;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Defines methods used to serialize data into a CSV file.
@@ -46,7 +46,7 @@ namespace CsvHelper
 
 		/// <summary>
 		/// Creates a new serializer using the given <see cref="TextWriter"/>
-		/// and <see cref="CsvHelper.Configuration.CsvConfiguration"/>.
+		/// and <see cref="FileHelper.Configuration.CsvConfiguration"/>.
 		/// </summary>
 		/// <param name="writer">The <see cref="TextWriter"/> to write the CSV file data to.</param>
 		/// <param name="configuration">The configuration.</param>
@@ -54,7 +54,7 @@ namespace CsvHelper
 
 		/// <summary>
 		/// Creates a new serializer using the given <see cref="TextWriter"/>
-		/// and <see cref="CsvHelper.Configuration.CsvConfiguration"/>.
+		/// and <see cref="FileHelper.Configuration.CsvConfiguration"/>.
 		/// </summary>
 		/// <param name="writer">The <see cref="TextWriter"/> to write the CSV file data to.</param>
 		/// <param name="configuration">The configuration.</param>

@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
-using CsvHelper.Configuration;
+using FileHelper.Configuration;
 
-namespace CsvHelper.Tests.Mocks
+namespace FileHelper.Tests.Mocks
 {
 	public class SerializerMock : ISerializer
 	{
@@ -29,7 +29,7 @@ namespace CsvHelper.Tests.Mocks
 
 		public SerializerMock(bool throwExceptionOnWrite = false)
 		{
-			Context = new WritingContext(new StringWriter(), new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
+			Context = new WritingContext(new StringWriter(), new FileHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture), false);
 			this.throwExceptionOnWrite = throwExceptionOnWrite;
 		}
 

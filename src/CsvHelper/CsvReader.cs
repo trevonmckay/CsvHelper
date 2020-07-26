@@ -5,15 +5,15 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using CsvHelper.Configuration;
-using CsvHelper.TypeConversion;
+using FileHelper.Configuration;
+using FileHelper.TypeConversion;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using CsvHelper.Expressions;
+using FileHelper.Expressions;
 using System.Globalization;
 
-namespace CsvHelper
+namespace FileHelper
 {
 	/// <summary>
 	/// Reads data that was parsed from <see cref="IParser" />.
@@ -57,7 +57,7 @@ namespace CsvHelper
 
 		/// <summary>
 		/// Creates a new CSV reader using the given <see cref="TextReader" /> and
-		/// <see cref="CsvHelper.Configuration.CsvConfiguration" /> and <see cref="CsvParser" /> as the default parser.
+		/// <see cref="FileHelper.Configuration.CsvConfiguration" /> and <see cref="CsvParser" /> as the default parser.
 		/// </summary>
 		/// <param name="reader">The reader.</param>
 		/// <param name="configuration">The configuration.</param>

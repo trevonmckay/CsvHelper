@@ -7,9 +7,9 @@ using System.Collections;
 using System.Diagnostics;
 using System.Linq.Expressions;
 using System.Reflection;
-using CsvHelper.TypeConversion;
+using FileHelper.TypeConversion;
 
-namespace CsvHelper.Configuration
+namespace FileHelper.Configuration
 {
 	/// <summary>
 	/// Mapping info for a member to a CSV field.
